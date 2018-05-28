@@ -1,16 +1,15 @@
-/* Resize the browser 100%*/
+/* Resize the browser 100%
 .responsive {
     width: 100%;
     height: auto;
 }
 
-
-/* Resize the image to scale decrease, but never scale up than the original large of the image   */
+*/
+/* Resize the image to scale decrease, but never scale up than the original large of the image */
 .responsive {
     max-width: 100%;
     height: auto;
 }
-
 
 
 body header h1{
