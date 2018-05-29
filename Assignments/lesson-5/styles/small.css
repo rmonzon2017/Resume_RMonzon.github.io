@@ -20,7 +20,6 @@ header img {
     float: left;
     width: 120px;
     height: 130px;
-    margin: 0.5px;
     border: 0.5px solid #73AD21;
     
 }
@@ -30,6 +29,7 @@ header h1 {
     color: #000000;
     background-color: #ffffff;
     text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    margin: 0;
 }
 header h3 {
     font-size: 14px;
@@ -37,6 +37,7 @@ header h3 {
    color: #000000;
     background-color: #ffffff;
     text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    margin: 0;
 
 }
 /* Main menu Navigation */
@@ -141,6 +142,26 @@ main h3{
     text-align: center;
     text-decoration: underline;
 }
+
+   main figure.Hero{
+        width: 98%;
+        margin: 0 0 0 0; 
+    
+    }
+    
+    main figure.Hero img{
+        width: 100%;
+        
+    }
+    
+    main {
+        padding: 0;
+        min-height: 10rem;
+        
+    }
+
+
+
 
 /* Main Footer */
 

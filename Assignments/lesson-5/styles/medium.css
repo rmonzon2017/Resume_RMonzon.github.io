@@ -1,4 +1,25 @@
-@media only screen and (min-width: ___________) {
+@media only screen and (min-width: 64rem) {
+    
+     header, nav, main, footer {
+        max-width: 64rem;
+        margin: auto;  
+       ;
+    }
+    
+    main figure.Hero{
+        width: 86%;
+        margin: 1% 0 0 1%;  
+    }
+    
+    main figure.Hero img{
+        width: 100%;
+    }
+    
+    main {
+        padding: 0;
+        min-height: 10rem;
+        
+    }
 
     /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
     
@@ -8,7 +29,7 @@
 
   }
 
-@medium only screen and (min-width:37.5em) {
+
 
   /*  PUT CSS RULES IN HERE */
 
