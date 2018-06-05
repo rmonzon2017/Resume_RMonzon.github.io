@@ -1,0 +1,193 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  font-family: sans-serif; /* Declare the base font-family */
+    
+  
+}
+
+/* Main Header*/
+
+header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+  max-width: 300; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+header img {
+    border-radius: 10px;
+    float: left;
+    width: 120px;
+    height: 130px;
+    border: 0.5px solid #73AD21;
+    
+}
+header h1 {
+    float: center;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    margin: 0;
+}
+header h3 {
+    font-size: 14px;
+    text-align: center;    
+   color: #000000;
+    background-color: #ffffff;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    margin: 0;
+
+}
+/* Main menu Navigation */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;   
+    width: 100%;   
+    font-size: 15px;
+    overflow: hidden;
+    background-color: dodgerblue;
+}
+
+nav ul li {
+    float: left;
+    
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000;
+    border-top: 1px solid rgba(0,0,0,0.1)
+    
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.2);
+    
+}
+
+nav ul.hide {display: none;}
+
+nav button{
+    margin: .8rem 2%;
+    background-color: dodgerblue;
+    border: none;
+    font-size: 1.7rem;
+    color: black;
+    
+    
+}
+
+nav{    
+    font-family: Verdana, sans-serif;
+}
+
+/* Main Body */
+
+main {
+    border: 2px solid black;
+    border-style: groove;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: whitesmoke;
+    
+}
+
+main class weather-summary table, th,td {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    /*width: 30%;*/
+}
+
+main td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+main tr:nth-child(even){background-color: #f2f2f2;}
+
+main tr:hover {background-color: #ddd;}
+
+main th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: dodgerblue;
+    color: white;
+}
+
+main div.History img {
+    margin-left: 5px;
+    margin-right: 5px;
+    float: right;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+main img{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+/*
+main h2{
+    float: center;
+    text-align: center;
+}
+*/
+
+ main div.h2{
+    float: right;
+    text-align: right;
+}
+
+main h3{
+    float: center;
+    text-align: center;
+    text-decoration: underline;
+}
+
+   main figure.Hero{
+        width: 98%;
+        margin: 0 0 0 0; 
+    
+    }
+    
+    main figure.Hero img{
+        width: 100%;
+        
+    }
+    
+    main {
+        padding: 0;
+        min-height: 10rem;
+        
+    }
+
+
+
+
+/* Main Footer */
+
+footer {}
+
+/*---Clearfix-----------------*/
+.clearfix:after {
+    content: :"";
+    display: table;
+    clear: both;
+}
+

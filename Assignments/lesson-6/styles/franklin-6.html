@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta name="description" content="The Four Seasson is web site about information of the Weather in our local city">
+     <link rel="stylesheet" href="/Normalize.css">
+    <link rel="stylesheet" href="/Assignments/lesson-6/styles/small.css">    
+    <link href="styles/medium.css" href="/Assignments/lesson-6/styles/medium.css"> 
+    <link href="styles/large.css" href="/Assignments/lesson-6/styles/large.css">
+
+    
+        <title>The Four Season </title>
+</head>
+<body>
+    
+
+  <header class="clearfix">
+     <img src="/Assignments/lesson-5/images/Whether%20logo.png" width="120" height="130"> 
+      <h1>The Four Season</h1>
+      <h3>It check you weather before you leave</h3>
+  </header>
+
+  <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="MainNav" class=""> 
+    	<li><a class="active" href="home">Home</a></li>
+    	<li><a href="Franklin">Franklin</a></li>
+    	<li><a href="Greenville">Greenville</a></li>
+    	<li><a href="Springfield">Springfield</a></li>
+    	<li><a href="Storm Center">Storm Center</a></li>
+    	<li><a href="Gallery">Gallery</a></li>
+    </ul>	
+  </nav>
+    
+  <main class="clearfix">
+      <figure class="Hero">     
+         <img src="/Assignments/lesson-6/images/franklin-original.jpeg" alt="Hero" 
+         srcset="/Assignments/lesson-6/images/franklin-800-100.jpg 1x, 
+                 /Assignments/lesson-6/images/franklin-800-80.jpg  2x,
+                 /Assignments/lesson-6/images/franklin-400-80.jpg  3x">    
+      </figure>
+      
+    <h1>Franklin</h1>
+    <figure>
+    </figure>
+    <section class="weather-summary">
+      <h2>Weather Summary</h2>  
+       <table>
+           <tr>
+           <th>Summary</th>
+           <th>Sunny</th>           
+           </tr>
+           <tr>
+               <td>High</td>
+               <td>90°F</td>          
+           </tr>
+           <tr>
+               <td>Low</td>
+               <td>66°F</td>          
+           </tr>
+           <tr>
+               <td>Precipitation</td>
+               <td>0%</td>          
+           </tr>
+           <tr>
+               <td>Wind Speed</td>
+               <td>5 mph SW</td>          
+           </tr>    
+        </table>
+        
+        
+        
+      <div class="current">
+          <h2>The Weather Today</h2>
+        <picture>
+            <img src="/Assignments/lesson-5/images/Weather%20today.JPG" alt="200" height="220">
+           
+        </picture>
+      </div>   
+               
+    </section>
+        <h2>Forecast Details: Below</h2>
+    <section class="forecast">
+      <h3>Ten Day Forecast</h3>
+      <table align="center">
+        <thead>
+          <tr>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+            <th>Day 4</th>
+            <th>Day 5</th>
+            <th>Day 6</th>
+            <th>Day 7</th>
+            <th>Day 8</th>
+            <th>Day 9</th>
+            <th>Day 10</th>
+          </tr>
+	</thead>
+        <tbody>  
+          <tr>
+            <td>89&deg;F</td>
+            <td>87&deg;F</td>
+            <td>78&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+            <td>72&deg;F</td>
+            <td>79&deg;F</td>
+            <td>83&deg;F</td>
+            <td>85&deg;F</td>
+            <td>89&deg;F</td>
+          </tr>
+	</tbody>
+      </table>
+    </section>
+      
+    <article>
+         <div class="History">
+      <h2>This Day in History</h2>	
+      <img src="/Assignments/lesson-5/images/Old%20City.JPG">
+             <p>The City of Franklin was founded October 26, 1799 and was named after Benjamin Franklin, a close friend of Dr. Hugh Williamson, a member of the Continental Congress for whom Williamson County was named. For most of its first 180 years, Franklin was a tranquil, small county seat. In the years prior to the Civil War, Williamson County was one of the wealthiest counties in Tennessee and Franklin the center of plantation economy. Two Presidents made visits to Franklin and three Secretaries of War were from the immediate area.<br><br><br><br>However, the Civil War devastated the economy. Union troops occupied the area for nearly three years. The Battle of Franklin was fought on November 30, 1864, and was one of the war's bloodiest battles, costing more than 8,000 casualties and turning every home and building in town into a hospital.Today, Franklin is one of the wealthiest cities in one of the wealthiest counties in the United States. The 2017 Census lists the City's population at 71,374. This makes us the 7th largest city in Tennessee and one of the fastest growing. 
+             </p>
+      <p class="town-article">
+      </p>
+        </div>
+    </article>	
+      
+
+  </main>
+    
+  <footer class="clearfix">
+    <section class="contact">
+        <p style="text-align: center;">     
+      Contact information placeholder
+      448&period;9658&period;9664
+      96854 Main St&period; Anytown&comma; US 33144
+      Google Map
+        </p>
+    </section>
+    <section class="footer-bar">
+        <p style="text-align: center;">
+            &copy;2018 &vert; All Rights Reserved &vert; Site Title &vert; </p>
+            <span id="currentdate">
+             <p style="text-align: center;">
+                Current Date Placeholder</p></span>
+        
+       <img src="/Assignments/lesson-6/scripts/currentdate.js">
+        
+ 
+    </section>
+  </footer>
+</body>
+</html>
+ 
