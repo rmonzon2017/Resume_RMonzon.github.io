@@ -182,7 +182,11 @@ main h3{
 
 /* Main Footer */
 
-footer {}
+footer script {
+   text-align: center;
+    
+    
+}
 
 /*---Clearfix-----------------*/
 .clearfix:after {

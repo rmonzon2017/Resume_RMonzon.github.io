@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta name="description" content=" Portal Rafael Monzon. Student BYU Idaho">
+     <link rel="stylesheet" href="/Normalize.css">
+    <link rel="stylesheet" href="/main.css">
+        <title> Portal 2018 | Test </title>
+ </head>     
+<body>
+    <header>
+        <h1>Rafael Monzon</h1>
+    </header>
+     
+    <nav>
+    </nav>
+    
+    <main>
+            
+        
+    
+
+<script>
+    
+var objToday = new Date(),
+	weekday = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'),
+	dayOfWeek = weekday[objToday.getDay()],
+	domEnder = function() { var a = objToday; if (/1/.test(parseInt((a + "").charAt(0)))) return "th"; a = parseInt((a + "").charAt(1)); return 1 == a ? "st" : 2 == a ? "nd" : 3 == a ? "rd" : "th" }(),
+	dayOfMonth = today + ( objToday.getDate() < 10) ? '0' + objToday.getDate() + domEnder : objToday.getDate() + domEnder,
+	months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'),
+	curMonth = months[objToday.getMonth()],
+	curYear = objToday.getFullYear();
+	
+var today = dayOfWeek + " " + dayOfMonth + " - " + curMonth + ", " + curYear;
+
+document.getElementsByTagName('h1')[0].textContent = today;
+</script>
+        
+        <script>
+         
+        </script>
+        
+        
+    </main>
+    <footer>
+         
+    </footer>        
+    </body>
+</html>
