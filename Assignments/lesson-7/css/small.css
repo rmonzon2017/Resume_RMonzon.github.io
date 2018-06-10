@@ -1,5 +1,8 @@
-/* This main css file contains the default rules and is geared toward the small/phone view */
-
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+/*@media only screen and (min-width: 35em){*/
+    
+  /* This main css file contains the default rules and is geared toward the small/phone view */
+{ margin: 0; box-sizing: border-box; }
 * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
@@ -15,20 +18,20 @@ header, nav, main, footer { /* the comma between the selectors means apply the f
   max-width: 300; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 
-header img {
-    border-radius: 90px;
-    width:  100px;
-    height: 85px;
-    margin :auto;
-    
+header figure.logo {
+    display: flex;
+    float: left;
+    margin: 0 2% 0 0;    
 }
+
+
 header h1 {
     float: center;
     text-align: center;
     color: #000000;
     background-color: #ffffff;
     text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
-    margin: 0;
+    margin: 0 2% 0 0;    
 }
 header h3 {
     font-size: 14px;
@@ -39,57 +42,50 @@ header h3 {
     margin: 0;
 
 }
-/**** Main menu Navigation **************/
+
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 nav {
-   /* background-color: #2865E0;*/
+    background-color: #376FF2;
     font-family: Verdana, sans-serif;
-   
+    
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    overflow: hidden;
-    background-color: #333;
-    
-    
 }
 
 nav button {
     margin: ,2rem 2%;
     background-color: transparent;
     border: none;
-    font-size: 1.5rem;
-    color: #000;
+    font-size: 1.9rem;
+    color: #fff;
 }
 
 
 nav ul li a{
     display: block;
-    padding: .9rem 2%;
+    padding: .8rem 2%;
     text-decoration: none;
     color: rgba(255,255,255,255);
-    border-top: 1px solid rgba(0,0,0,0.3); 
-  
+    border-top: 1px solid rgba(0,0,0,0.3);
 }
-/**
-nav li{
-    display: flex;
-    float: left;
-}
-*/
-
-nav ul li a:hover {background-color: rgba(0,0,255,0.4);}
 
 
-nav ul li.active a {background-color: rgba(0,0,0,0.2); color: red;}
+nav ul li a:hover {background-color: rgba(0,0,0,0.5);}
+
+
+nav ul li.active a {background-color: rgba(0,0,0,0.2); color: #fff;}
 
 nav ul.hide {display: none;}
 
-
-
+/********* Main *****/
 
 /* Main Body */
 
@@ -128,12 +124,14 @@ main th {
 }
 
 main div.History img {
-    margin-left: 5px;
-    margin-right: 5px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     float: right;
     vertical-align: top;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 1vw;
 }
 
 main img{
@@ -144,42 +142,12 @@ main img{
 }
 
 main figure { margin: 0 0 .2rem 2%; width:96%; }
-/*
-main h2{
-    float: center;
-    text-align: center;
+
+main div.current{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
-*/
-
- main div.h2{
-    float: right;
-    text-align: right;
-}
-
-main h3{
-    float: center;
-    text-align: center;
-    text-decoration: underline;
-}
-
-   main figure.Hero{
-        width: 98%;
-        margin: 0 0 0 0; 
-    
-    }
-    
-    main figure.Hero img{
-        width: 100%;
-        
-    }
-    
-    main {
-        padding: 0;
-        min-height: 10rem;
-        
-    }
-
-
 
 
 /* Main Footer */
@@ -190,16 +158,44 @@ footer script {
     
 }
 
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-
-/*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-
-/*---Clearfix-----------------*/
 .clearfix:after {
-    content: :"";
+    content: "";
     display: table;
     clear: both;
 }
 
+
+
+
+/***************** Grid control*-********************/
+@media only screen and (min-width: 100px){
+main div.gallery{
+  display: flex;    
+  flex-direction: column;
+  margin: auto;
+  padding: auto;
+}
+    
+    main div.gallery img{
+        display: flex;
+        margin: 10px;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.3); 
+    max-width: 45vw;
+    margin-right: auto;
+    align-content: space-between
+    }
+    
+    main div.gallery div.desc{
+        display: flex;
+        padding: 25px;
+        text-align: center;
+    }
+   
+
+} /* end */
+
+
+
+
+    

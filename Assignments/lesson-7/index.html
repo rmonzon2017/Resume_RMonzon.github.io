@@ -5,33 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <meta name="description" content="The Four Seasson is web site about information of the Weather in our local city">
      <link rel="stylesheet" href="/Normalize.css">
-    <link rel="stylesheet" href="/Assignments/lesson-6/styles/small.css">    
-    <link ref="stylesheet" href="/Assignments/lesson-6/styles/medium.css"> 
-    <link ref="stylesheet" href="/Assignments/lesson-6/styles/large.css">
+    <!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
         <title>The Four Season </title>
 </head>
 <body>
     
-
   <header class="clearfix">
-     <img src="/Assignments/lesson-5/images/Whether%20logo.png"> 
+      <figure class="logo">
+     <img src="/Assignments/lesson-7/images/Whether%20logo%2070.jpg" alt="logo"
+           srcset="Assignments/lesson-7/images/Whether%20logo%2085.jpg 2x,
+          Assignments/lesson-7/images/Whether%20logo%20100.jpg 3x"> 
+          </figure>          
+      <script src="js/scripts.js"></script>
       <h1>The Four Season</h1>
       <h3>It check you weather before you leave</h3>
   </header>
-
-  <nav class="clearfix">
-     <button onclick="Test()">&#9776;</button>
-        <ul id="primaryNav" class="">
-    	<li><a class="active" href="#">Home</a></li>
-    	<li><a href="#">Franklin</a></li>
-    	<li><a href="#">Greenville</a></li>
-    	<li><a href="#">Springfield</a></li>
-    	<li><a href="#">Storm Center</a></li>
-    	<li><a href="#">Gallery</a></li>
-    </ul>	
-  </nav>
+     
     
-  <main class="clearfix">
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="Test()">&#9776;</button>
+        <ul id="primaryNav" class="">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="/Assignments/lesson-7/index.html">Franklin</a></li>
+    	    <li><a href="#">Greenville</a></li>
+    	    <li><a href="#">Springfield</a></li>
+    	    <li><a href="#">Storm Center</a></li>
+    	   <li><a href="/Assignments/lesson-7/gallery.html">Gallery</a></li> 
+        </ul>
+    </nav>
+    
+    
+   <main class="clearfix">
     <figure class="Hero">     
          <img src="/Assignments/lesson-6/images/franklin-original.jpeg" alt="Hero" 
          srcset="/Assignments/lesson-6/images/franklin-800-100.jpg 1x, 
@@ -44,28 +56,38 @@
     </figure>
     <section class="weather-summary">
       <h2>Weather Summary</h2>  
-       <table>
-           <tr>
-           <th>Summary</th>
-           <th>Sunny</th>           
-           </tr>
-           <tr>
-               <td>High</td>
-               <td>90°F</td>          
-           </tr>
-           <tr>
-               <td>Low</td>
-               <td>66°F</td>          
-           </tr>
-           <tr>
-               <td>Precipitation</td>
-               <td>0%</td>          
-           </tr>
-           <tr>
-               <td>Wind Speed</td>
-               <td>5 mph SW</td>          
-           </tr>    
-        </table>
+ <!--------Caltulator Wind chilll--->
+        <form action="" method=post name=windform>
+<left>
+<table border=2 cellpadding=3 cellspacing=0 width="250">
+<tr>
+<td align=center>
+Wind Speed (MPH) =
+</td>
+<td align=center>
+<input type=text name=wind value="" size=6>
+</td>
+</tr>
+<tr>
+<td align=center>
+Air Temperature (ºF) =
+</td>
+<td align=center>
+<input type=text name=temp value="" size=6>
+</td>
+</tr>
+<tr>
+<td colspan=2 align=center>
+<br>
+<input type=button value="Calculate Wind Chill" onclick="Calc(this.form)">
+<p>
+<input name=windchill type=text value="" size=10> º F
+</td>
+<tr>
+</table>
+</left>
+</form>
+        <script src="/Assignments/lesson-7/js/windchill.js"></script>
         
         
         
@@ -144,6 +166,10 @@
                 <script src="/Assignments/lesson-6/scripts/currentdate.js"></script></p></span>
     </section>
   </footer>
+    
+
+    
+    
+    
 </body>
 </html>
- 

@@ -1,0 +1,103 @@
+@media only screen and (min-width: 35em){
+   
+    nav button {display: none;}
+    
+    nav ul li{
+        float: left;
+    }
+    
+nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    padding:  .8rem 1rem;
+}
+
+    
+    nav ul {margin-left: 2%;}
+    
+    
+    
+   main figure.Hero{
+        width: 86%;
+        margin: 1% 0 0 1%;  
+    }
+    
+    main figure.Hero img{
+        width: 100%;
+    }
+    
+    main {
+        padding: 0;
+        min-height: 10rem;
+        
+    }
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    
+    nav button {display: none;}
+    
+    nav ul li{
+       float: left;
+    }
+    
+nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    padding:  .8rem 1rem;
+}
+    
+    nav ul {margin-left: 2%;}
+    
+    
+    nav{
+      
+background: rgb(109,179,242); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(109,179,242,1) 0%, rgba(84,163,238,1) 50%, rgba(55,111,242,1) 52%, rgba(30,105,222,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(55,111,242,1) 52%,rgba(30,105,222,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(55,111,242,1) 52%,rgba(30,105,222,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 ); /* IE6-9 */
+    }
+    
+    
+     main figure.Hero{
+        display: flex;
+        width: auto;
+        margin: auto;
+    }
+    
+     main div.gallery img{
+        display: flex;
+        margin: 10px;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.3); 
+    max-width: 45vw;
+    margin-right: auto;
+    }
+    
+
+    
+    
+    
+} /* end medium */
+
+
+
+
+@media only screen and (min-width: 400px){
+main div.gallery{
+  display: flex;    
+  flex-direction: column;
+  margin: .2vw 0 .2vw .2vw;
+  font-size: 0;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
+    padding: auto;
+}
+    
+
+
+}

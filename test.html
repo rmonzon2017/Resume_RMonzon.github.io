@@ -17,30 +17,51 @@
     </nav>
     
     <main>
-            
+   <!---         
         
-    
+  <div class="gallery">
+    <img src="/Assignments/lesson-6/images/New%20City.JPG">
+    <img src="/Assignments/lesson-6/images/New%20City.JPG">
+    <img src="/Assignments/lesson-6/images/New%20City.JPG">
+    <img src="/Assignments/lesson-6/images/Old%20City.JPG">
+    <img src="/Assignments/lesson-6/images/Old%20City.JPG">
+    <img src="/Assignments/lesson-6/images/Old%20City.JPG">
+  </div>
+ --->
+        
+        
+     <form action="" method=post name=windform>
+<center>
+<table border=1 cellpadding=3 cellspacing=0 width="250">
+<tr>
+<td align=center>
+Wind Speed (MPH) =
+</td>
+<td align=center>
+<input type=text name=wind value="" size=6>
+</td>
+</tr>
+<tr>
+<td align=center>
+Air Temperature (ºF) =
+</td>
+<td align=center>
+<input type=text name=temp value="" size=6>
+</td>
+</tr>
+<tr>
+<td colspan=2 align=center>
+<br>
+<input type=button value="Calculate Wind Chill" onclick="Calc(myform)">
+<p>
+<input name=Calc type=text value="" size=10> º F
+</td>
+<tr>
+</table>
+</center>
+</form>
 
-<script>
-    
-var objToday = new Date(),
-	weekday = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'),
-	dayOfWeek = weekday[objToday.getDay()],
-	domEnder = function() { var a = objToday; if (/1/.test(parseInt((a + "").charAt(0)))) return "th"; a = parseInt((a + "").charAt(1)); return 1 == a ? "st" : 2 == a ? "nd" : 3 == a ? "rd" : "th" }(),
-	dayOfMonth = today + ( objToday.getDate() < 10) ? '0' + objToday.getDate() + domEnder : objToday.getDate() + domEnder,
-	months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'),
-	curMonth = months[objToday.getMonth()],
-	curYear = objToday.getFullYear();
-	
-var today = dayOfWeek + " " + dayOfMonth + " - " + curMonth + ", " + curYear;
-
-document.getElementsByTagName('h1')[0].textContent = today;
-</script>
-        
-        <script>
-         
-        </script>
-        
+   
         
     </main>
     <footer>
