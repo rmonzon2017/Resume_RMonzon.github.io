@@ -19,9 +19,9 @@
     
   <header class="clearfix">
       <figure class="logo">
-     <img src="/Assignments/lesson-7/images/Whether%20logo%2070.jpg" alt="logo"
-           srcset="Assignments/lesson-7/images/Whether%20logo%2085.jpg 2x,
-          Assignments/lesson-7/images/Whether%20logo%20100.jpg 3x"> 
+     <img src="/Assignments/lesson-7/images/Whether%20logo%2070.jpg" alt="logo" sizes="50vw"
+           srcset="Assignments/lesson-7/images/Whether%20logo%2085.jpg 100w,
+          Assignments/lesson-7/images/Whether%20logo%20100.jpg 200w"> 
           </figure>          
       <script src="js/scripts.js"></script>
       <h1>The Four Season</h1>
@@ -33,11 +33,11 @@
     <nav class="clearfix">
         <button onclick="Test()">&#9776;</button>
         <ul id="primaryNav" class="">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="http://www.byui.edu/">Home</a></li>
             <li><a href="/Assignments/lesson-7/index.html">Franklin</a></li>
-    	    <li><a href="#">Greenville</a></li>
-    	    <li><a href="#">Springfield</a></li>
-    	    <li><a href="#">Storm Center</a></li>
+            <li><a href="http://www.byui.edu/">Greenville</a></li>
+    	    <li><a href="http://www.byui.edu/">Springfield</a></li>
+    	    <li><a href="http://www.byui.edu/">Storm Center</a></li>
     	   <li><a href="/Assignments/lesson-7/gallery.html">Gallery</a></li> 
         </ul>
     </nav>
@@ -51,7 +51,9 @@
                  /Assignments/lesson-6/images/franklin-400-80.jpg  3x">    
       </figure>
       
-    <h1>Franklin</h1>
+       <h1>Franklin</h1>
+ 
+        
     <figure>
     </figure>
     <section class="weather-summary">
@@ -148,6 +150,14 @@ Air Temperature (ºF) =
       
 
   </main>
+    
+        <button onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
     
   <footer class="clearfix">
     <section class="contact">

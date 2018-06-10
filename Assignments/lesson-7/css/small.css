@@ -166,7 +166,6 @@ footer script {
 
 
 
-
 /***************** Grid control*-********************/
 @media only screen and (min-width: 100px){
 main div.gallery{
@@ -188,8 +187,8 @@ main div.gallery{
     
     main div.gallery div.desc{
         display: flex;
-        padding: 25px;
-        text-align: center;
+            
+
     }
    
 
