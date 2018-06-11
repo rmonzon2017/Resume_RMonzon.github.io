@@ -149,6 +149,19 @@ main div.current{
     margin: auto;
 }
 
+main form table td{
+   text-align: center;
+    border=2 ;
+    width="250";    
+}
+
+main form table{
+    border: .1rem;
+   /* background: #376FF2;*/
+    color: red;
+    
+}
+
 
 
 
