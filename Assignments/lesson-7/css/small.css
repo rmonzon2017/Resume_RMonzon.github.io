@@ -26,7 +26,7 @@ header figure.logo {
 
 
 header h1 {
-    float: center;
+    /*float: center;*/
     text-align: center;
     color: #000000;
     background-color: #ffffff;
@@ -61,7 +61,7 @@ nav ul {
 }
 
 nav button {
-    margin: ,2rem 2%;
+    margin: .2rem 2%;
     background-color: transparent;
     border: none;
     font-size: 1.9rem;
@@ -141,7 +141,7 @@ main img{
     margin-bottom: 5px;
 }
 
-main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure { margin: 0 0 .2rem 2%; width:90%; }
 
 main div.current{
     display: flex;
@@ -150,13 +150,11 @@ main div.current{
 }
 
 
+
+
+
 /* Main Footer */
 
-footer script {
-   text-align: center;
-    
-    
-}
 
 .clearfix:after {
     content: "";
@@ -169,27 +167,24 @@ footer script {
 /***************** Grid control*-********************/
 @media only screen and (min-width: 100px){
 main div.gallery{
-  display: flex;    
+  display: flex;
   flex-direction: column;
   margin: auto;
-  padding: auto;
+  text-align: center;
+  /*padding: auto;
+  
 }
     
     main div.gallery img{
         display: flex;
-        margin: 10px;
     border: 2px solid #000;
     box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.3); 
-    max-width: 45vw;
-    margin-right: auto;
-    align-content: space-between
+    /*max-width: 45vw;*/
+    align-items: center;
+    justify-content: center;
+    
     }
     
-    main div.gallery div.desc{
-        display: flex;
-            
-
-    }
    
 
 } /* end */

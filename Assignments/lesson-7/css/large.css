@@ -49,8 +49,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', end
 main div.gallery{
   display: flex;
     flex-wrap: wrap;
-    flex-direction: row
-        padding: auto;
+    flex-direction: row;
+        /*padding: auto;*/
 }
     
      main div.gallery img{
