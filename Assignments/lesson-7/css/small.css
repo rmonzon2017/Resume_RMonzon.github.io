@@ -103,6 +103,7 @@ main {
 main class weather-summary table, th,td {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
+    align-content: center
     /*width: 30%;*/
 }
 
@@ -161,6 +162,11 @@ main form table{
     color: red;
     
 }
+
+main table{
+    margin: 0 auto;
+}
+
 
 
 
