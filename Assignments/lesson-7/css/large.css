@@ -51,6 +51,8 @@ main div.gallery{
     flex-wrap: wrap;
     flex-direction: row;
         /*padding: auto;*/
+    width:100%;
+  font-size: 100%;
 }
     
      main div.gallery img{
@@ -60,6 +62,7 @@ main div.gallery{
     box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.3); 
     max-width: 45vw;
     margin-right: auto;
+         
     }
 
 

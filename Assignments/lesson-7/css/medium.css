@@ -84,7 +84,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', end
       display: flex;    
   flex-direction: column;
   margin: .2vw 0 .2vw .2vw;
-  font-size: 0;
+  font-display: auto;
  /* flex-wrap: wrap;*/
   /*flex-flow: row wrap;*/
  /* -webkit-flex-flow: row wrap;*/

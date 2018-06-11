@@ -185,12 +185,18 @@ main table{
 
 /***************** Grid control*-********************/
 @media only screen and (min-width: 100px){
+    
 main div.gallery{
   display: flex;
   flex-direction: column;
   margin: auto;
   text-align: center;
+    width:100%;
+  /*font-size: 100%;*/
+    text-align: center;
+    background-color:dodgerblue;
   /*padding: auto;
+    
   
 }
     
@@ -201,8 +207,11 @@ main div.gallery{
     /*max-width: 45vw;*/
     align-items: center;
     justify-content: center;
-    
+    { display: grid; }
     }
+    
+ 
+
     
    
 
