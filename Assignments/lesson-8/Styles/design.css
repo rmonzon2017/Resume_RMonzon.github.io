@@ -49,6 +49,11 @@ table caption{
 header h1{
     text-align: center;
     color: #FFF;
-background-color: #0d0e03
+background-color: #000000;
 text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
+}
+
+
+body{
+    background: rgba(155,224,245,0.9)  no-repeat scroll -1px -1px;
 }
