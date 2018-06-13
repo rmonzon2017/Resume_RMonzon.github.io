@@ -1,0 +1,54 @@
+.Newtable {
+    border-collapse: collapse;
+    -webkit-box-shadow: 8px 10px 26px 2px rgba(98,140,166,0.97); 
+    box-shadow: 8px 10px 26px 2px rgba(98,140,166,0.97);
+    font-family: ubuntu sans-serif;
+    background-color: #e7ffed;
+    background: #e7f0ed;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+table, th, td {
+    border: 2px solid black;
+     text-align: center;
+     padding: 7px;
+     
+}
+
+
+tr:nth-child(even){background-color: #e7ffed}
+
+
+table thead th{
+     background-color: #7fb9c2 ;
+     color: rgba(255,255,255,255);
+     font-weight: bold;
+    
+    
+}
+
+table tbody #shadow{
+    background-color: #7fb9c2;
+    color: rgba(255,255,255,255);
+   
+}
+
+table tfoot{
+    font-size: 55%;
+    background: #7fb9c2;
+}
+
+table caption{
+    background-color: #7fb9c2;
+    font-size: 170%;
+    font-weight: bold;
+    
+}
+
+header h1{
+    text-align: center;
+    color: #FFF;
+background-color: rgba(255,255,0,8);
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
+}

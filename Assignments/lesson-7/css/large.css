@@ -47,12 +47,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', end
 
 @media only screen and (min-width: 700px){
 main div.gallery{
-  display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-        /*padding: auto;*/
-    width:100%;
-  font-size: 100%;
+    display: flex;    
+  flex-direction: column;
+  margin: .2vw 0 .2vw .2vw;
+  font-size: 0;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
+    padding: auto;
+    text-align: center;
+    background-color:dodgerblue;
 }
     
      main div.gallery img{
