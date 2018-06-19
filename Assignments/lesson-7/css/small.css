@@ -146,8 +146,8 @@ main div.current{
 
 main form table td{
    text-align: center;
-    border: 2% ;
-    width:"250%";    
+    border: 2px ;
+    width: 70%;    
 }
 
 main form table{
@@ -280,7 +280,7 @@ main div.gallery{
     justify-content: center;
     display: grid; 
 
-} /* end */
+ /* end */
 
 
 
