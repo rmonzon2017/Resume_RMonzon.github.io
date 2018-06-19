@@ -57,3 +57,35 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 body{
     background: rgba(155,224,245,0.9)  no-repeat scroll -1px -1px;
 }
+
+
+
+
+/******************** Form Design ********************************/
+
+main h1{
+    text-align: center;
+}
+
+form fieldset{
+    margin: .2rem 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

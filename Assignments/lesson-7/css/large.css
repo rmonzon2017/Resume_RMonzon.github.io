@@ -42,6 +42,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', end
     }
     
     
+    /*********Form *************/
+    form  div.danger{
+        padding: .4rem 0;
+    }
+    
+    
     
 }/* end large */
 

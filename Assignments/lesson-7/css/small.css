@@ -168,7 +168,83 @@ main table{
 }
 
 
+/******************** Form Design ********************************/
+ 
+main h1{
+    text-align: center;
+}
 
+form fieldset{
+    margin: .2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;   
+}
+
+form legend{
+    color: #445ba9;
+    margin: 0 .1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: darkblue;
+    font-size: .9rem;
+}
+
+form input,  select {
+    -webkit-appearence: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .60rem;
+    color: #555;
+    width: 100%;
+    max-width: 15rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form  div.danger{
+    display: block;
+    padding: .60rem 0;
+    color: #555; 
+}
+
+form div.Submit{
+    border: none;
+    background-color: #B5B5B5;
+    color: black;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    margin: 0 6 5rem 2%;
+    width: 96%;
+    max-width: 9rem;
+    text-decoration: none;
+    
+}
+
+form div.Submit:hover{
+    color: #445ba9;
+    background-color: #fff;
+  }
+
+
+
+form  input:required{
+    border-left: red solid 4px;
+}
+
+form input:required:valid{
+     border-left: green solid 4px;
+}
+
+
+main h5{
+    font-size: 15px;
+}
 
 
 
