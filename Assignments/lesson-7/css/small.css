@@ -152,8 +152,8 @@ main div.current{
 
 main form table td{
    text-align: center;
-    border=2 ;
-    width="250";    
+    border: 2 ;
+    width:"250";    
 }
 
 main form table{
@@ -244,6 +244,8 @@ form input:required:valid{
 
 main h5{
     font-size: 15px;
+    text-align: center;
+    
 }
 
 
@@ -284,12 +286,6 @@ main div.gallery{
     align-items: center;
     justify-content: center;
     { display: grid; }
-    }
-    
- 
-
-    
-   
 
 } /* end */
 
