@@ -9,7 +9,7 @@ body {
 /* Main Header*/
 
 header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
-  max-width: 300; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+  max-width: 300%; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 
 header figure.logo {
@@ -146,8 +146,8 @@ main div.current{
 
 main form table td{
    text-align: center;
-    border: 2 ;
-    width:"250";    
+    border: 2% ;
+    width:"250%";    
 }
 
 main form table{
@@ -213,7 +213,7 @@ form div.Submit{
     color: black;
     border-radius: 1rem;
     padding: .5rem 1rem;
-    margin: 0 6 5rem 2%;
+    margin: 0% 1% 5rem 2%;
     width: 96%;
     max-width: 9rem;
     text-decoration: none;
