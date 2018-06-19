@@ -1,15 +1,9 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-/*@media only screen and (min-width: 35em){*/
-    
-  /* This main css file contains the default rules and is geared toward the small/phone view */
-{ margin: 0; box-sizing: border-box; }
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+@media only screen and (min-width: 100px){
 
 body {
   font-size: 16px;
   font-family: sans-serif; /* Declare the base font-family */
     
-  
 }
 
 /* Main Header*/
@@ -158,7 +152,7 @@ main form table td{
 
 main form table{
     border: .1rem;
-   /* background: #376FF2;*/
+  
     color: red;
     
 }
@@ -262,12 +256,11 @@ main h5{
 
 
 /***************** Grid control*-********************/
-@media only screen and (min-width: 100px){
     
 main div.gallery{
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: 0.5px;
   text-align: center;
     width:100%;
   /*font-size: 100%;*/
@@ -276,7 +269,7 @@ main div.gallery{
   /*padding: auto;
     
   
-}
+
     
     main div.gallery img{
         display: flex;
@@ -285,7 +278,7 @@ main div.gallery{
     /*max-width: 45vw;*/
     align-items: center;
     justify-content: center;
-    { display: grid; }
+    display: grid; 
 
 } /* end */
 
