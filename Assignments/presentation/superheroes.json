@@ -1,0 +1,43 @@
+{
+  "squadName" : "Super Hero squad",
+  "homeTown" : "Metro City",
+  "formed" : 2018,
+  "secretBase" : "Super Bowl",
+  "active" : true,
+  "members" : [
+    {
+      "name" : "Molecule Man",
+      "age" : 35,
+      "secretIdentity" : "Clark Ken",
+      "powers" : [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+        "Iron man"
+      ]
+    },
+    {
+      "name" : "Madame Uppercut",
+      "age" : 39,
+      "secretIdentity" : "Jane Wilson",
+      "powers" : [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+        "Flash"
+      ]
+    },
+    {
+      "name" : "Eternal Flame",
+      "age" : 8000000,
+      "secretIdentity" : "Unknown",
+      "powers" : [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
+      ]
+    }
+  ]
+}
