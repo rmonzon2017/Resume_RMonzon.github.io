@@ -63,7 +63,7 @@ main div.gallery{
     flex-flow: row wrap;
     display: -webkit-box;
     display: flex;
-    padding: auto;
+    padding: 1px;
     text-align: center;
     background-color:dodgerblue;
 }
