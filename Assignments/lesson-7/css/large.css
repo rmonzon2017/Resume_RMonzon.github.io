@@ -77,6 +77,11 @@ main div.gallery{
     margin-right: auto;
          
     }
+    
+        header, nav, main, footer {
+        max-width: 100rem;
+        margin:auto;
+    }
 
 
 }

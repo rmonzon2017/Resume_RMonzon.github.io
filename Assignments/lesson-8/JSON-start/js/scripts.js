@@ -18,3 +18,4 @@ weatherObject.onload = function() {
     document.getElementById('weather_icon').src = icon_path;
     
 } // end of the function 
+

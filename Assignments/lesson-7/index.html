@@ -35,10 +35,10 @@
     <nav class="clearfix">
         <button onclick="Test()">&#9776;</button>
         <ul id="primaryNav" class="">
-            <li class="active"><a href="http://www.byui.edu/">Home</a></li>
+            <li class="active"><a href="/Assignments/lesson-9/index.html">Home</a></li>
             <li><a href="/Assignments/lesson-7/index.html">Franklin</a></li>
-            <li><a href="http://www.byui.edu/">Greenville</a></li>
-    	    <li><a href="http://www.byui.edu/">Springfield</a></li>
+            <li><a href="/Assignments/lesson-9/Greenville.html">Greenville</a></li>
+    	    <li><a href="/Assignments/lesson-9/Springfield.html">Springfield</a></li>
     	    <li><a href="/Assignments/lesson-8/stormcenter.html">Storm Center</a></li>
     	   <li><a href="/Assignments/lesson-7/gallery.html">Gallery</a></li> 
         </ul>
@@ -52,18 +52,33 @@
                  /Assignments/lesson-6/images/franklin-800-80.jpg  200w,
                  /Assignments/lesson-6/images/franklin-400-80.jpg  300w,"
               
-              >    
+              >  
       </figure>
       
        <h1>Franklin</h1>
  
         
-    <figure>
-    </figure>
     <section class="weather-summary">
-      <h2>Weather Summary</h2> 
+        <div class="status">
+      <h2>Forecast Weather Summary</h2> 
+        <h2>Weather conditions for <span id="place">City</span></h2>
+        <p>Current Temperature is<span id="currentTemp">00</span>&deg;</p>
+        <p>Max Temperature is<span id="maxtemp">00</span></p>
+        <p>Min Temperature is<span id="mintemp">00</span></p>
+        <p>Wind Speed is<span id="currentWind">00</span></p>
         
- <!--------Caltulator Wind chilll--->
+        <img src="/Assignments/lesson-7/images/placeholder.png" alt="Current Weather" id="weather_icon">
+        </div>
+        
+        
+        
+        
+    
+          
+        
+        
+        
+ <!--------Caltulator Wind chilll
         <form action="" method=post name=windform>
 <left>
 <table>
@@ -95,6 +110,8 @@ Air Temperature (ºF) =
 </left>
 </form>
         <script src="/Assignments/lesson-7/js/windchill.js"></script>
+
+--->
         
         
         
@@ -156,7 +173,7 @@ Air Temperature (ºF) =
 
   </main>
     
-        <button onclick="goBack()">Go Back</button>
+       <button onclick="goBack()">Go Back</button> 
 
 <script>
 function goBack() {
@@ -174,9 +191,9 @@ function goBack() {
     </section>
     <section class="footer-bar">
         <!--&copy;2018 &vert;--> <h5 style="text-align: center">All Rights Reserved &vert; Site Title &vert; </h5>
-            <span id="currentdate">
+        <!--    <span id="currentdate">
               style="text-align: center;">
-                <script src="/Assignments/lesson-6/scripts/currentdate.js"></script></span>
+                <script src="/Assignments/lesson-6/scripts/currentdate.js"></script></span> -->
     </section>
   </footer>
     
