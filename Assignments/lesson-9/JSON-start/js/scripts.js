@@ -1,5 +1,5 @@
 var weatherObject = new XMLHttpRequest();
-weatherObject.open('GET','//api.openweathermap.org/data/2.5/weather?q=La Vega&appid=60fa5dd9d7c72250bff303f786f381df',true);
+weatherObject.open('GET','//api.openweathermap.org/data/2.5/weather?q=Greenville,US&appid=60fa5dd9d7c72250bff303f786f381df',true);
 
 
 weatherObject.send();

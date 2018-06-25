@@ -340,7 +340,27 @@ main div.desc {
     height: auto;
 }
     
-  
+main div.greenville {
+    padding: 18px;
+    text-align: center;
+}
+    
+    
+    main div.greenville img {
+    width: 9%;
+    height: auto;
+}
+    
+    main div.springfield {
+    padding: 18px;
+    text-align: center;
+}
+    
+    
+    main div.springfield img {
+    width: 9%;
+    height: auto;
+}
     
 
 /* Main Footer */

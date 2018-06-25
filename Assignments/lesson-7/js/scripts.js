@@ -8,7 +8,7 @@ function Test(){
 
 
 var weatherObject = new XMLHttpRequest();
-weatherObject.open('GET','http://api.openweathermap.org/data/2.5/weather?q=LA Vega&appid=33af471f1095c02413bd9f56c4998e9d', true);
+weatherObject.open('GET','//api.openweathermap.org/data/2.5/weather?q=LA Vega&appid=33af471f1095c02413bd9f56c4998e9d&units=imperial', true);
 
 weatherObject.send();
 
@@ -28,4 +28,5 @@ weatherObject.onload = function(){
       
     
 }/// End of the function.
+
 
