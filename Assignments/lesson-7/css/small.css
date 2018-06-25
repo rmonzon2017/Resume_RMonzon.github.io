@@ -376,9 +376,17 @@ main div.greenville {
     margin: 2em 1em;
     }
     
+    
 
 /* Main Footer */
 
+    footer  {
+    background-color: #ffffff;
+    padding: .5rem 2%;
+    text-align: center;
+}
+    
+    
 
 .clearfix:after {
     content: "";
