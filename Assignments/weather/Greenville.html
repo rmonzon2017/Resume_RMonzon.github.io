@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta name="description" content="The Four Seasson is web site about information of the Weather in our local city">
+     <link rel="stylesheet" href="/Normalize.css">
+    <!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="/Assignments/lesson-7/css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="/Assignments/lesson-7/css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="/Assignments/lesson-7/css/large.css" rel="stylesheet">
+        <title>The Four Season </title>
+</head>
+<body>
+    
+  <header class="clearfix">
+      <figure class="logo">
+      <img src="/Assignments/lesson-7/images/Whether%20logo%2070.jpg" alt="Main Logo" sizes="10vw"
+            srcset="/Assignments/lesson-7/images/Whether%20logo%2070.jpg 70w,
+                    /Assignments/lesson-7/images/Whether%20logo%2085.jpg 85w,
+                    /Assignments/lesson-7/images/Whether%20logo%20100.jpg 180w,">
+                    
+          </figure>          
+      <script src="js/scripts.js"></script>
+      <h1>The Four Season</h1>
+      <h3>It check you weather before you leave</h3>
+  </header>
+     
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="Test()">&#9776;</button>
+        <ul id="primaryNav" class="">
+            <li class="active"><a href="/Assignments/lesson-9/index.html">Home</a></li>
+            <li><a href="/Assignments/lesson-7/index.html">Franklin</a></li>
+        <li><a href="/Assignments/lesson-9/Greenville.html">Greenville</a></li>
+    	    <li><a href="/Assignments/lesson-9/Springfield.html">Springfield</a></li>
+    	    <li><a href="/Assignments/lesson-8/stormcenter.html">Storm Center</a></li>
+    	   <li><a href="/Assignments/lesson-7/gallery.html">Gallery</a></li> 
+        </ul>
+    </nav>
+    
+    
+   <main class="clearfix">
+    <figure class="Hero">     
+         <img src="/Assignments/lesson-9/images/greenville_0.jpg" alt="Hero" sizes="50vw" 
+         srcset="/Assignments/lesson-9/images/greenville_1-60.jpg 100w, 
+                 /Assignments/lesson-9/images/greenville_2-80.jpg  200w,
+                 /Assignments/lesson-9/images/greenville_3-100.jpg  300w,"
+              >  
+      </figure>
+       
+       <h1>Greenville</h1>
+      
+      
+      <div class="greenville">
+        <h2>Forecast Weather Summary</h2> 
+        <h2>Weather conditions for <span id="place">City</span></h2>
+        <p>Current Temperature is<span id="currentTemp">00</span>&deg;</p>
+        <p>Max Temperature is<span id="MaxTempa">00</span></p>
+        <p>Min Temperature is<span id="MinTempa">00</span></p>
+        <p>Wind Speed is<span id="WindSpeed">00</span></p>
+        
+        <img src="/Assignments/lesson-9/images/placeholder.png" alt="Current Weather" id="weather_icon">
+        
+        </div>
+     
+    
+       
+  
+   
+    </main>
+    
+    
+ <footer class="clearfix">
+    <aside> <p>
+              The Four Season
+             <br>
+              458 Main St. Franklin City, US 96547</p>
+    </aside>
+    <p>&copy;2018 | All Rights Reserved | The Four Season |  
+    </p>
+  </footer>
+     <script src="/Assignments/lesson-9/scripts/greenville.js"></script>
+    <script src="/Assignments/lesson-6/scripts/currentdate.js"></script>
+    <script>
+function goBack() {
+    window.history.back();
+}
+</script>
+    
+     <button onclick="goBack()">Go Back</button> 
+       </body>
+</html>
+ 
+    
+    
+    

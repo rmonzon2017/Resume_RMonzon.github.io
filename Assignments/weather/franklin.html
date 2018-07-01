@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta name="description" content="The Four Seasson is web site about information of the Weather in our local city">
+     <link rel="stylesheet" href="/Normalize.css">
+    <!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+        <title>The Four Season </title>
+</head>
+<body>
+    
+  <header class="clearfix">
+      <figure class="logo">
+      <img src="/Assignments/lesson-7/images/Whether%20logo%2070.jpg" alt="Main Logo" sizes="10vw"
+            srcset="/Assignments/lesson-7/images/Whether%20logo%2070.jpg 70w,
+                    /Assignments/lesson-7/images/Whether%20logo%2085.jpg 85w,
+                    /Assignments/lesson-7/images/Whether%20logo%20100.jpg 180w,">
+                    
+          </figure>          
+      <script src="js/scripts.js"></script>
+      <h1>The Four Season</h1>
+      <h3>It check you weather before you leave</h3>
+  </header>
+     
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="Test()">&#9776;</button>
+        <ul id="primaryNav" class="">
+            <li class="active"><a href="/Assignments/lesson-7/franklin.html">Home</a></li>
+             <li><a href="/Assignments/lesson-7/franklin.html">Franklin</a></li>
+            <li><a href="/Assignments/lesson-9/Greenville.html">Greenville</a></li>
+    	    <li><a href="/Assignments/lesson-9/Springfield.html">Springfield</a></li>
+    	    <li><a href="/Assignments/lesson-8/stormcenter.html">Storm Center</a></li>
+    	   <li><a href="/Assignments/lesson-7/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    
+   <main class="clearfix">
+    <figure class="Hero">     
+         <img src="/Assignments/lesson-6/images/franklin-original.jpeg" alt="Hero" sizes="50vw" 
+         srcset="/Assignments/lesson-6/images/franklin-800-100.jpg 100w, 
+                 /Assignments/lesson-6/images/franklin-800-80.jpg  200w,
+                 /Assignments/lesson-6/images/franklin-400-80.jpg  300w,"
+              
+              >  
+      </figure>
+      
+       <h1>Franklin</h1>
+ 
+        
+    <section class="weather-summary">
+        <div class="status">
+      <h2>Forecast Weather Summary</h2> 
+        <h2>Weather conditions for <span id="place">City</span></h2>
+        <p>Current Temperature is<span id="currentTemp">00</span>&deg;</p>
+        <p>Max Temperature is<span id="maxtemp">00</span></p>
+        <p>Min Temperature is<span id="mintemp">00</span></p>
+        <p>Wind Speed is<span id="currentWind">00</span></p>
+        
+        <img src="/Assignments/lesson-7/images/placeholder.png" alt="Current Weather" id="weather_icon">
+        </div>
+        
+        
+        
+        
+    
+          
+        
+        
+        
+ <!--------Caltulator Wind chilll
+        <form action="" method=post name=windform>
+<left>
+<table>
+<tr>
+<td>
+Wind Speed (MPH) =
+</td>
+<td>
+<input type=text name=wind value="" size=6>
+</td>
+</tr>
+<tr>
+<td>
+Air Temperature (ºF) =
+</td>
+<td>
+<input type=text name=temp value="" size=6>
+</td>
+</tr>
+<tr>
+<td colspan=2 align=center>
+<br>
+<input type=button value="Calculate Wind Chill" onclick="Calc(this.form)">
+<p>
+<input name=windchill type=text value="" size=10> º F
+</td>
+<tr>
+</table>
+</left>
+</form>
+        <script src="/Assignments/lesson-7/js/windchill.js"></script>
+
+--->
+        
+         
+               
+    </section>
+       
+        <h2>Forecast Details: Below</h2>
+    <section class="forecast">
+      <h3>Ten Day Forecast</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+            <th>Day 4</th>
+            <th>Day 5</th>
+            <th>Day 6</th>
+            <th>Day 7</th>
+            <th>Day 8</th>
+            <th>Day 9</th>
+            <th>Day 10</th>
+          </tr>
+	</thead>
+        <tbody>  
+          <tr>
+            <td>89&deg;F</td>
+            <td>87&deg;F</td>
+            <td>78&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+            <td>72&deg;F</td>
+            <td>79&deg;F</td>
+            <td>83&deg;F</td>
+            <td>85&deg;F</td>
+            <td>89&deg;F</td>
+          </tr>
+	</tbody>
+      </table>
+    </section>
+      
+    <article>
+         <div class="History">
+      <h2>This Day in History</h2>	
+      <img src="/Assignments/lesson-5/images/Old%20City.JPG" alt="history">
+             <p>The City of Franklin was founded October 26, 1799 and was named after Benjamin Franklin, a close friend of Dr. Hugh Williamson, a member of the Continental Congress for whom Williamson County was named. For most of its first 180 years, Franklin was a tranquil, small county seat. In the years prior to the Civil War, Williamson County was one of the wealthiest counties in Tennessee and Franklin the center of plantation economy. Two Presidents made visits to Franklin and three Secretaries of War were from the immediate area.<br><br><br><br>However, the Civil War devastated the economy. Union troops occupied the area for nearly three years. The Battle of Franklin was fought on November 30, 1864, and was one of the war's bloodiest battles, costing more than 8,000 casualties and turning every home and building in town into a hospital.Today, Franklin is one of the wealthiest cities in one of the wealthiest counties in the United States. The 2017 Census lists the City's population at 71,374. This makes us the 7th largest city in Tennessee and one of the fastest growing. 
+             </p>
+      <p class="town-article">
+      </p>
+        </div>
+    </article>	
+      
+
+  </main>
+    
+ <footer class="clearfix">
+    <aside> <p>
+              The Four Season
+             <br>
+              458 Main St. Franklin City, US 96547</p>
+    </aside>
+    <p>&copy;2018 | All Rights Reserved | The Four Season | 
+    </p>
+  </footer>
+    
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+    
+     <button onclick="goBack()">Go Back</button> 
+    <script src="/Assignments/lesson-6/scripts/currentdate.js"></script>
+    
+    
+    
+</body>
+</html>
