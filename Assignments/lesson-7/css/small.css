@@ -419,7 +419,7 @@ main div.gallery{
     /*max-width: 45vw;*/
     align-items: center;
     justify-content: center;
-    
+    border-radius: 7px;
     }
 }/* end */
 

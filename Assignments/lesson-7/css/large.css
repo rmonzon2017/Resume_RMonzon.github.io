@@ -71,7 +71,8 @@ main div.gallery{
      main div.gallery img{
         display: flex;
         margin: 10px;
-    border: 2px solid #000;
+        width: 25%;
+    border-radius: 7px;
     box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.3); 
     max-width: 45vw;
     margin-right: auto;
