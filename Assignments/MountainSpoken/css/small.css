@@ -1,0 +1,110 @@
+@media only screen and (min-width: 100px){
+    
+    body {
+  background-color: lightcyan;
+  font-size: 17px;
+  font-family: sans-serif; /* Declare the base font-family */
+    
+}
+
+/* Main Header*/
+
+header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+  max-width: 300%; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+    
+
+nav {
+    background-color: #f85032;
+    font-family: Verdana, sans-serif;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.9rem;
+    color: #fff;
+}
+
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: rgba(255,255,255,255);
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+
+nav ul li a:hover {background-color: rgba(0,0,0,0.5);}
+
+
+nav ul li.active a {background-color: rgba(0,0,0,0.2); color: #fff;}
+
+nav ul.hide {display: none;}
+
+
+/* Logo */    
+header figure.logo {
+    display: flex;
+    float: left;
+    margin: 0 2% 0 0; 
+}
+    
+
+/* Titles */    
+header h1 {
+    /*float: center;*/
+    text-align: center;
+    color: #000000;
+    background-color: lightcyan;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    margin: 0 2% 0 0;    
+}
+header h3 {
+    font-size: 14px;
+    text-align: center;    
+   color: #000000;
+    background-color: lightcyan;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    margin: 0;
+
+}
+    
+/* Main */
+    
+main figure.Hero{
+    margin: auto;
+      
+    }
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/* CLEAR ELEMENTS */     
+    .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    
+} /* END */
