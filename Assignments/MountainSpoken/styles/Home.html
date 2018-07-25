@@ -27,7 +27,7 @@
                     
           
           </figure>          
-      <script src="js/scripts.js"></script>
+      <script src="/Assignments/MountainSpoken/scripts.js/menu.js"></script>
       <h1>The Mountain Spoke</h1>
       <h3>The Best Place fro Tour Trip Bicycle</h3>
   </header>
@@ -57,77 +57,36 @@
               >   
       </figure>
        
+     
+    <article>
+         <div class="History">
+      <h2>History Bozeman </h2>	
+      <img src="/Assignments/MountainSpoken/images/Welcome-200.jpg" alt="history">
+             <p>In 1864, W.W. Alderson described Montana’s Gallatin Valley as “one of the most beautiful and picturesque valleys the eye ever beheld, abounding in springs of clear water.” In the late 1800’s many agreed, calling it “The Egypt” or “The Garden Spot of Montana.”Bozeman, Montana is named after John M. Bozeman, founder of the strategic Bozeman Trail.<br><br><br>or thousands of years, Native American tribes like the Shoshone, Bangtail, Nez Perce, Sioux, Blackfeet, and Flathead made the Gallatin Valley home, though the Valley was not held by any particular Indian tribe. In July 1806, William Clark, arguably one of Bozeman’s first pioneers, of the Lewis and Clark Expedition, took a side trip, visiting the Gallatin Valley as he traveled east from Three Forks, Montana, following the Gallatin River.Journal entries from Clark’s party briefly describe the future Bozeman as the “Valley of the Flowers,” which came from the southwest Montana native tribes’ apt description of the pristine Gallatin Valley land.
+             </p> 
+        </div>
+       </article>
        
-     <!-- 
-       <section class="townsinfo">
-
-         </section>
+       <div class="btngroup">
+    <!---- First Button ---->
+       <div class="btnf">
+        <a href="/Assignments/MountainSpoken/styles/AdventureTour.html"><img src="/Assignments/MountainSpoken/images/Adventures-250.jpg" alt="Adventures">
+           </a>
+       </div>
+       <!---- Second Button ---->
+       <div class="btns">
+        <a href="/Assignments/MountainSpoken/styles/TheEvent.html"><img src="/Assignments/MountainSpoken/images/events-250.jpg" alt="Events"> 
+           </a>
+       </div>
+       <!---- Third Button ---->
        
-       <script>
-
-var section = document.querySelector('section');
-var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-
-var request = new XMLHttpRequest();
-
-    request.open('GET', requestURL);
-
-    request.responseType = 'json';
-
-    request.send();
-
-    request.onload = function() {
-var townInfo = request.response;
-    showInfo(townInfo);
-}
-    
-function showInfo(jsonObj) {
-    var info = jsonObj['towns'];
-
-    for (var i = 0; i < info.length; i++) {
-        if (i === 2) { 
-            continue; }
-        var myArticle = document.createElement('article');
-        var myH2 = document.createElement('h2');
-        var myH3 = document.createElement('h3');
-        var myPara1 = document.createElement('p');
-        var myPara2 = document.createElement('p');
-        var myPara3 = document.createElement('p');
-        var myPara4 = document.createElement('p');
-        var myList = document.createElement('ul');
-        
-
-        myH2.textContent = info[i].name;
-        myH3.textContent = 'Moto: ' + info[i].motto;
-        myPara1.textContent = 'Year Founded: ' + info[i].yearFounded;
-        myPara2.textContent = 'Current Population: ' + info[i].currentPopulation;
-        myPara3.textContent = 'Average Rainfall: ' + info[i].averageRainfall;
-        myPara4.textContent = 'Events: ';
-
-        var townEvents = info[i].events;
-        for (var j = 0; j < townEvents.length; j++) {
-            if (i === 2) { continue; }
-            
-            var listItem = document.createElement('li');
-            listItem.textContent = townEvents[j];
-            myList.appendChild(listItem);
-        }
-
-        myArticle.appendChild(myH2);
-        myArticle.appendChild(myH3);
-        myArticle.appendChild(myPara1);
-        myArticle.appendChild(myPara2);
-        myArticle.appendChild(myPara3);
-        myArticle.appendChild(myList);
-
-        section.appendChild(myArticle);
-    }
-}
-
-
-</script>
-       MAIN CONTENT HERE -->
-  
+       <div class="btnt">
+       <a href="/Assignments/MountainSpoken/styles/Sales.html"><img src="/Assignments/MountainSpoken/images/sales-250.jpg" alt="Sales">
+           </a>
+       </div>
+           </div>
+       
+       
     </main>
 <!-- FOOTER HERE -->
     <footer class="clearfix">

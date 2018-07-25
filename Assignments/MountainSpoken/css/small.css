@@ -58,6 +58,11 @@ header figure.logo {
     float: left;
     margin: 0 2% 0 0; 
 }
+
+    header figure.logo img{
+        border-radius: 40%;
+    }
+
     
 
 /* Titles */    
@@ -85,11 +90,65 @@ main figure.Hero{
     margin: auto;
       
     }
+
+ article div.History {
+    background-color: #248C2B;
+    color: #ffffff;
+    border: 3px solid #110806;
+    border-radius: 3px 30px;
+    padding: 0 10px 0 10px;
+    margin: 1em 0.5em;
+    }
+
+    article img{
+     display: block;
+     border-radius: 5%;
+     float: right; 
+     margin: 0 10px 20px 0;  
+    }
     
-   
+    
+  .btngroup {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-gap: 10px;
+}
+
+main .btngroup {
+    padding: 0 2%;
+	display: grid;
+  	grid-template-columns: repeat(1, 100%);
+}
+
+	}
+div.btngroup div:hover {
+		box-shadow: 3px 3px 9px rgba(0,2,2,1);
+	}
+
+div.btngroup div {margin: 1rem 0; border: 3px  solid #110806; border-radius: 3px 30px; }
+div.btngroup div img {width: 100%;}
+ 
+
+.btnf  img{
+    border-radius: 3px 20px;        
+}
+
+.btns  img{
+    border-radius: 3px 20px;        
+}
+
+.btnt  img{
+    border-radius: 3px 20px;        
+}
     
     
+ /* FOOTER */
     
+    footer  {
+    background-color: lightcyan;
+    padding: .5rem 2%;
+    text-align: center;
+}
     
     
     

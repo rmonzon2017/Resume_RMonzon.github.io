@@ -1,4 +1,16 @@
 @media only screen and (min-width: 64rem) {
+    
+    /* Logo */    
+header figure.logo {
+    display: flex;
+    float: left;
+    margin: 0 2% 0 0; 
+}
+
+    header figure.logo img{
+        border-radius: 40%;
+    }
+    
      /* NAVEGATION MENU */
       nav button {display: none;}
     
@@ -32,6 +44,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
         margin: auto;
         
     }
+    
+     div.btngroup {
+  		grid-template-columns: repeat(3, 32%);
+	}
+	div.btngroup figure:hover {
+		box-shadow: 3px 3px 9px rgba(0,2,2,1);
+	}
+      
             
             
     /* FOOTER */
