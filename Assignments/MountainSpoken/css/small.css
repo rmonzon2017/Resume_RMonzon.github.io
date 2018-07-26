@@ -140,8 +140,161 @@ div.btngroup div img {width: 100%;}
 .btnt  img{
     border-radius: 3px 20px;        
 }
+
+ .upcoming {
+    color: #A00711;
+    margin: 1em;
+    background-color: #FFAB00;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid #4D5C11;
+    text-shadow: 8px 5px 5px #B07600;
+}
+
+    .box1, .box2, .box3 {
+    background-color: #248C2B;
+    color: #ffffff;
+    border: 3px solid #110806;
+    border-radius: 3px 30px;
+    padding: 0 10px 0 10px;
+    margin: 1em 0.5em;
+    }
+
+     .box1 img{
+     display: block;
+     border-radius: 5%;
+     float: left; 
+     margin: 10px 10px 0;  
+    }
+
+ .box2 img{
+     display: block;
+     border-radius: 5%;
+     float: left; 
+     margin: 10px 10px 0;  
+    }
+
+ .box3 img{
+     display: block;
+     border-radius: 5%;
+     float: left; 
+     margin: 10px 10px 0;  
+    }
     
+div.eventsGallery{
+    display: flex;
+    flex-flow: column;
     
+}
+
+
+main .grid {
+    display: grid;
+    grid-row-gap: 30px;
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);   
+    
+}
+
+.grid img{
+    display: block;
+     border-radius: 20%;
+    border: 3px solid #110806;
+}
+
+main .wrap {
+    grid-column: 2/4
+    
+}
+
+main .photos {
+    display: grid;
+}
+
+main .bikes {
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+
+/* Form */
+
+main h1{
+    text-align: center;
+}
+
+    main figure.Hero{
+     width: 100%;              
+    }
+    
+form fieldset{
+    margin: .2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;   
+}
+
+form legend{
+    color: #445ba9;
+    margin: 0 .1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: darkblue;
+    font-size: .9rem;
+}
+
+form input,  select {
+    -webkit-appearence: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .60rem;
+    color: #555;
+    width: 100%;
+    max-width: 15rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form  div.danger{
+    display: block;
+    padding: .60rem 0;
+    color: #555; 
+}
+
+form div.Submit{
+    border: none;
+    background-color: #B5B5B5;
+    color: black;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    margin: 0% 1% 5rem 2%;
+    width: 96%;
+    max-width: 9rem;
+    text-decoration: none;
+    
+}
+
+form div.Submit:hover{
+    color: #445ba9;
+    background-color: #fff;
+  }
+
+
+
+form  input:required{
+    border-left: red solid 4px;
+}
+
+form input:required:valid{
+     border-left: green solid 4px;
+}
  /* FOOTER */
     
     footer  {
