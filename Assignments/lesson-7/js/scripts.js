@@ -8,7 +8,7 @@ function Test(){
 
 
 var weatherObject = new XMLHttpRequest();
-weatherObject.open('GET','//api.openweathermap.org/data/2.5/weather?q=LA Vega&appid=33af471f1095c02413bd9f56c4998e9d&units=imperial', true);
+weatherObject.open('GET','//api.openweathermap.org/data/2.5/weather?q=Bozeman&appid=33af471f1095c02413bd9f56c4998e9d&units=imperial', true);
 
 weatherObject.send();
 
