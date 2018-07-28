@@ -198,8 +198,10 @@ main .grid {
 
 .grid img{
     display: block;
-     border-radius: 20%;
+    border-radius: 20%;
     border: 3px solid #110806;
+    width: 200px;
+    height: 
 }
 
 main .wrap {
@@ -213,9 +215,23 @@ main .photos {
 
 main .bikes {
     text-align: center;
+    font-family: Verdana, sans-serif; 
     margin: 20px;
     padding: 5px;
-    border-radius: 25px;
+    border-radius: 10px;
+    border: 1px solid #4D5C11;
+    background-color: #248C2B;
+}
+
+main .services {
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #4D5C11;
+    background-color: #248C2B;
+    font-family: Verdana, sans-serif;
+
 }
 
 
@@ -265,12 +281,12 @@ form input,  select {
 form  div.danger{
     display: block;
     padding: .60rem 0;
-    color: #555; 
+    color: #0F050A; 
 }
 
 form div.Submit{
     border: none;
-    background-color: #B5B5B5;
+    background-color: #499bea;
     color: black;
     border-radius: 1rem;
     padding: .5rem 1rem;
@@ -283,7 +299,7 @@ form div.Submit{
 
 form div.Submit:hover{
     color: #445ba9;
-    background-color: #fff;
+    background-color: #4FEF74;
   }
 
 

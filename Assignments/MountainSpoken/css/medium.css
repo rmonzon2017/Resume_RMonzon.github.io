@@ -107,13 +107,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
      margin: 10px 10px 0;  
     }
     
-.weatherGallery{
+.eventsGallery{
     display: flex;
-    justify-content: center;
-    flex-flow: column;
-   
-    
+    justify-content: center;  
 }
+    
+     h2.upcoming {
+    color: #A00711;
+    margin: 1em;
+    background-color: #FFAB00;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid #4D5C11;
+    text-shadow: 8px 5px 5px #B07600;
+}
+    
+     main .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        grid-column-gap: 250px;
+        padding: 15px;
+    }
     
     /* FOOTER*/
     
