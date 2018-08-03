@@ -11,10 +11,7 @@ body {
     color: mintcream;   
     white-space: normal;
     margin: 0;
-    background: #fff;
-    
-    
-    
+    background: #fff;  
 }
 
 h1 {
@@ -25,7 +22,6 @@ h1 {
 h2 {
     font-size: 18px;
     text-align: center;
-    border-bottom: 2px solid #bbb;
     color: black;
     height: 135px;
     
@@ -39,8 +35,6 @@ header, main, footer {
     height: auto;
     max-height: 300%;
 
-      
-    
 }
 
 header, footer, footer a {
@@ -53,51 +47,15 @@ header, footer, footer a {
  img {
   
     float: right;
-    width: 200;
-     height: 273;
+    width: 140;
+    height: 200;
+    border: solid 1px;
+     
     
 }
 
 
 {box-sizing: border-box;}
-
-/*
-main div.gallery{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-}
-
-main div.gallery div{
-    border: 1px solid rgba(0.95.107);
-    border-radius: 3px;
-    background-color: rgba(0.95.107.0.8);
-    padding: 0.2em;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-
-main div.gallery{
-  display: flex;
-    flex-direction: column;
-    margin: .5vw;
-    font-size: 0;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-     flex-flow: row wrap;
-    display: flex;
-}
-
-
-
-
-
 
 
 footer {
